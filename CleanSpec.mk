@@ -1,8 +1,3 @@
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/include/libdrm)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/include/freedreno)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/SHARED_LIBRARIES/libdrm_*intermediates)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/obj/STATIC_LIBRARIES/libdrm_*intermediates)
-
-# libdrm is moved from /system to /vendor
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib/libdrm.so)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/lib64/libdrm.so)
+version https://git-lfs.github.com/spec/v1
+oid sha256:942235b73f3bbf581f1f131011b7df5742e43c259795fb6061d626192536a567
+size 490

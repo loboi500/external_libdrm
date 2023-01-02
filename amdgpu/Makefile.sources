@@ -1,14 +1,3 @@
-LIBDRM_AMDGPU_FILES := \
-	amdgpu_asic_id.c \
-	amdgpu_bo.c \
-	amdgpu_cs.c \
-	amdgpu_device.c \
-	amdgpu_gpu_info.c \
-	amdgpu_internal.h \
-	amdgpu_vamgr.c \
-	amdgpu_vm.c \
-	handle_table.c \
-	handle_table.h
-
-LIBDRM_AMDGPU_H_FILES := \
-	amdgpu.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdb0b3a872b7925a06d051cf46eaacea23538158d8da7456e4b890ccc7fcb879
+size 241

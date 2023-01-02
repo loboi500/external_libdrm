@@ -1,3 +1,3 @@
-LIBDRM_VC4_H_FILES := \
-	vc4_packet.h \
-	vc4_qpu_defines.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:75611d224c423168a0772e446d102024ba931fc529d7c3141d9638b04222ebd6
+size 59

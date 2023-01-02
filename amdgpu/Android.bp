@@ -1,25 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_libdrm_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-MIT
-    default_applicable_licenses: ["external_libdrm_license"],
-}
-
-build = ["Android.sources.bp"]
-
-cc_library_shared {
-    name: "libdrm_amdgpu",
-
-    cflags: [
-	"-DAMDGPU_ASIC_ID_TABLE=\"/vendor/etc/hwdata/amdgpu.ids\""
-    ],
-
-    defaults: [
-        "libdrm_defaults",
-        "libdrm_amdgpu_sources",
-    ],
-    vendor: true,
-    shared_libs: ["libdrm"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f3a90372b71aa1fdabc764dcab75fc5f8cd0c30a7abab8c22865813525c315c0
+size 626

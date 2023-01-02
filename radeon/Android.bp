@@ -1,20 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_libdrm_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-MIT
-    default_applicable_licenses: ["external_libdrm_license"],
-}
-
-build = ["Android.sources.bp"]
-
-cc_library_shared {
-    name: "libdrm_radeon",
-    defaults: [
-        "libdrm_defaults",
-        "libdrm_radeon_sources",
-    ],
-    vendor: true,
-    shared_libs: ["libdrm"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4071aed1ac9c151b9caa5cf0faa5b9e04645d7bbb24a1fb1856f75a59beec5ee
+size 543

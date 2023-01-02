@@ -1,20 +1,3 @@
-package {
-    // See: http://go/android-license-faq
-    // A large-scale-change added 'default_applicable_licenses' to import
-    // all of the 'license_kinds' from "external_libdrm_license"
-    // to get the below license kinds:
-    //   SPDX-license-identifier-MIT
-    default_applicable_licenses: ["external_libdrm_license"],
-}
-
-build = ["Android.sources.bp"]
-
-cc_library_shared {
-    name: "libdrm_etnaviv",
-    defaults: [
-        "libdrm_defaults",
-        "libdrm_etnaviv_sources",
-    ],
-    vendor: true,
-    shared_libs: ["libdrm"],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:4772910c6bdf55bda4acaba41dd052122eec653df3a9b538bb731df364cea7c6
+size 545

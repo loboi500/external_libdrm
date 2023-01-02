@@ -1,12 +1,3 @@
-LIBDRM_ETNAVIV_FILES := \
-	etnaviv_device.c \
-	etnaviv_gpu.c \
-	etnaviv_bo.c \
-	etnaviv_bo_cache.c \
-	etnaviv_perfmon.c \
-	etnaviv_pipe.c \
-	etnaviv_cmd_stream.c \
-	etnaviv_priv.h
-
-LIBDRM_ETNAVIV_H_FILES := \
-	etnaviv_drmif.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:4878ab045aa3623aa6c218987231d2a7fd6a43f97a0ebb985d85ee9d96809328
+size 226
